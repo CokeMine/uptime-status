@@ -14,7 +14,7 @@ const Uptime = (props) => {
 
   return monitors ? monitors.map(item => (
     <UptimeItem key={item.id} monitor={item}/>
-  )) : <div className="item loading"></div>;
+  )) : <div className="item loading"/>;
 }
 
 export default Uptime;

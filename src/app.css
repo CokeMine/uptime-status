@@ -87,7 +87,7 @@ a {
 }
 
 #uptime .loading {
-  background: url(./assets/loading.svg) center center / 40px 40px no-repeat;
+  background: white url(./assets/loading.svg) center center / 40px 40px no-repeat;
   height: 100px;
 }
 
@@ -186,6 +186,7 @@ a {
 #uptime .foot {
   display: flex;
   justify-content: space-between;
+  text-align: center;
   line-height: 15px;
   color: #999FA6;
 }
